@@ -1935,7 +1935,7 @@ function MarkupToHTML($pagename, $text, $opt = NULL) {
         { echo "ERROR: pat=$p $php_errormsg"; unset($php_errormsg); }
       if ($RedoMarkupLine) { $lines=array_merge((array)$x,$lines); continue 2; }
     }
-    if ($x>'') $out .= "$x\n";
+    if ($x>'') $out .= "$x<br>\n";
   }
   foreach((array)(@$MarkupFrame[0]['posteval']) as $v) eval($v);
   array_shift($MarkupFrame);
