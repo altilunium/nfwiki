@@ -1,0 +1,14 @@
+version=pmwiki-2.2.142 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36
+author=
+charset=UTF-8
+csum=
+host=::1
+name=Main.HomePage
+rev=204
+targets=PmWiki.DocumentationIndex,PmWiki.InitialSetupTasks,PmWiki.BasicEditing,Main.WikiSandbox
+text=(:Summary:The default home page for the PmWiki distribution:)%0aWelcome to PmWiki!%0a%0aA local copy of PmWiki's%0adocumentation has been installed along with the software,%0aand is available via the [[PmWiki/documentation index]].  %0a%0aTo continue setting up PmWiki, see [[PmWiki/initial setup tasks]].%0a%0aThe [[PmWiki/basic editing]] page describes how to create pages%0ain PmWiki.  You can practice editing in the [[wiki sandbox]].%0a%0aMore information about PmWiki is available from [[http://www.pmwiki.org]].%0a
+time=1631199488
+author:1631199488=
+diff:1631199488:1400472661:=
+host:1631199488=::1
